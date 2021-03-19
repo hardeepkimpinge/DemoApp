@@ -96,7 +96,9 @@ class _SignInScreenState extends State<SignInScreen> {
         ),
         Container(
           alignment: Alignment.bottomCenter,
+          // ignore: lines_longer_than_80_chars
           margin: EdgeInsets.only(top: _large? _height/30 : (_medium? _height/25 : _height/20)),
+    // ignore: lines_longer_than_80_chars
     child: Icon(Icons.add_a_photo, size: _large? 40: (_medium? 33: 31),color: Colors.red[200],)
 
     // child: Image.asset(
@@ -190,6 +192,7 @@ class _SignInScreenState extends State<SignInScreen> {
         children: <Widget>[
           Text(
             "Forgot your password?",
+            // ignore: lines_longer_than_80_chars
             style: TextStyle(fontWeight: FontWeight.w400,fontSize: _large? 14: (_medium? 12: 10)),
           ),
           SizedBox(
@@ -246,6 +249,7 @@ class _SignInScreenState extends State<SignInScreen> {
         children: <Widget>[
           Text(
             "Don't have an account?",
+            // ignore: lines_longer_than_80_chars
             style: TextStyle(fontWeight: FontWeight.w400,fontSize: _large? 14: (_medium? 12: 10)),
           ),
           SizedBox(
